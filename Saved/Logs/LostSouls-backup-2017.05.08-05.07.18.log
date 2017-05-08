@@ -1,0 +1,929 @@
+﻿Log file open, 05/08/17 05:01:56
+LogInit:Display: Running engine for game: LostSouls
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(398678098) SRandInit(398678098).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.082495
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3415560
+LogInit: Engine Version: 4.16.0-3415560+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3415560+++UE4+Release-4.16
+LogInit: Net CL: 3415560
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May  1 2017 02:03:37
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/Programacion/UE4/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.08-03.01.56:352][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.08-03.01.56:352][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.08-03.01.56:358][  0]LogInit: Computer: PSGAM-PC
+[2017.05.08-03.01.56:358][  0]LogInit: User: PSGAM
+[2017.05.08-03.01.56:358][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.05.08-03.01.56:358][  0]LogInit: High frequency timer resolution =3.507520 MHz
+[2017.05.08-03.01.56:358][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.05.08-03.01.56:358][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.08-03.01.56:358][  0]LogMemory: Process Physical Memory: 271.23 MB used, 271.23 MB peak
+[2017.05.08-03.01.56:358][  0]LogMemory: Process Virtual Memory: 261.00 MB used, 261.00 MB peak
+[2017.05.08-03.01.56:358][  0]LogMemory: Physical Memory: 5623.92 MB used,  10712.50 MB free, 16336.42 MB total
+[2017.05.08-03.01.56:358][  0]LogMemory: Virtual Memory: 624.50 MB used,  10712.50 MB free, 134217728.00 MB total
+[2017.05.08-03.01.56:402][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.05.08-03.01.56:402][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.05.08-03.01.57:103][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.08-03.01.57:580][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 760 (192-bit)' (Feature Level 11_0)
+[2017.05.08-03.01.57:580][  0]LogD3D11RHI:       1475/0/2560 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.05.08-03.01.57:581][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.08-03.01.57:582][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.08-03.01.57:582][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.08-03.01.57:584][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.08-03.01.57:584][  0]LogD3D11RHI:     GPU DeviceId: 0x118e (for the marketing name, search the web for "GPU Device Id")
+[2017.05.08-03.01.57:584][  0]LogWindows: EnumDisplayDevices:
+[2017.05.08-03.01.57:584][  0]LogWindows:    0. 'NVIDIA GeForce GTX 760 (192-bit)' (P:0 D:1)
+[2017.05.08-03.01.57:584][  0]LogWindows:    1. 'NVIDIA GeForce GTX 760 (192-bit)' (P:1 D:1)
+[2017.05.08-03.01.57:585][  0]LogWindows:    2. 'NVIDIA GeForce GTX 760 (192-bit)' (P:0 D:0)
+[2017.05.08-03.01.57:585][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.05.08-03.01.57:585][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 760 (192-bit)
+[2017.05.08-03.01.57:585][  0]LogD3D11RHI:   Driver Version: 378.92 (internal:21.21.13.7892, unified:378.92)
+[2017.05.08-03.01.57:585][  0]LogD3D11RHI:      Driver Date: 3-16-2017
+[2017.05.08-03.01.57:585][  0]LogRHI: Texture pool is 1033 MB (70% of 1475 MB)
+[2017.05.08-03.01.58:041][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
+[2017.05.08-03.01.58:041][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.08-03.01.58:130][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.05.08-03.01.58:229][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (../../../../Unreal Projects/LostSouls/Intermediate/Shaders/WorkingDirectory/2664/).
+[2017.05.08-03.01.58:229][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Pablo/AppData/Local/Temp/UnrealShaderWorkingDir/31072ABA4C669387C3D408A5E0F472AE/'.
+[2017.05.08-03.01.58:229][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.08-03.01.59:102][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.08-03.01.59:136][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.08-03.01.59:169][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.08-03.01.59:202][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.08-03.01.59:235][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.08-03.01.59:268][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.08-03.01.59:301][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.08-03.01.59:334][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.08-03.01.59:361][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.08-03.01.59:393][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.08-03.01.59:426][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.08-03.01.59:458][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.08-03.01.59:490][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.08-03.01.59:523][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.08-03.01.59:554][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.08-03.01.59:621][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.08-03.01.59:621][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.08-03.01.59:645][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.08-03.01.59:712][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.08-03.01.59:732][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.08-03.01.59:763][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.08-03.01.59:795][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.08-03.01.59:827][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.08-03.01.59:860][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.08-03.01.59:860][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.08-03.02.00:152][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.08-03.02.00:199][  0]LogDerivedDataCache: Loaded boot cache 0.05s 58MB C:/Users/Pablo/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.05.08-03.02.00:199][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Pablo/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.05.08-03.02.00:199][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Unreal Projects/LostSouls/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.08-03.02.00:199][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.08-03.02.00:199][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Unreal Projects/LostSouls/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.08-03.02.00:199][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.08-03.02.00:215][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.08-03.02.00:227][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Pablo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.08-03.02.00:235][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.08-03.02.00:235][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.08-03.02.00:235][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.08-03.02.00:500][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.08-03.02.00:561][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.08-03.02.00:678][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.08-03.02.00:705][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.08-03.02.00:735][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.08-03.02.00:735][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.08-03.02.00:735][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.08-03.02.01:149][  0]LogNetVersion: LostSouls , NetCL: 3415560, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2980751059)
+[2017.05.08-03.02.01:199][  0]LogAssetRegistry: FAssetRegistry took 0.0256 seconds to start up
+[2017.05.08-03.02.01:223][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.011784 seconds
+[2017.05.08-03.02.01:228][  0]LogUObjectArray: 34173 objects as part of root set at end of initial load.
+[2017.05.08-03.02.01:228][  0]LogUObjectAllocator: 7257232 out of 0 bytes used by permanent object pool.
+[2017.05.08-03.02.01:228][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.08-03.02.01:264][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.08-03.02.02:989][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.08-03.02.03:018][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.08-03.02.03:379][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.08-03.02.03:643][  0]SourceControl: Info Source control is disabled
+[2017.05.08-03.02.04:755][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.05.08-03.02.05:134][  0]LogEngine: Initializing Engine...
+[2017.05.08-03.02.05:134][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.08-03.02.05:252][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.08-03.02.05:252][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.08-03.02.05:327][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.08-03.02.05:334][  0]LogInit: XAudio2 using 'Altavoces (2.4G Wireless headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.08-03.02.05:340][  0]LogInit: FAudioDevice initialized.
+[2017.05.08-03.02.05:366][  0]LogDerivedDataCache: Saved boot cache 0.03s 58MB C:/Users/Pablo/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.05.08-03.02.05:369][  0]LogInit: Texture streaming: Enabled
+[2017.05.08-03.02.05:422][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.08-03.02.05:551][  0]LogInit: Transaction tracking system initialized
+[2017.05.08-03.02.05:731][  0]BlueprintLog: New page: Editor Load
+[2017.05.08-03.02.06:275][  0]LocalizationService: Info Localization service is disabled
+[2017.05.08-03.02.06:683][  0]LogConsoleResponse:Display: 
+[2017.05.08-03.02.06:793][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.08-03.02.06:793][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.08-03.02.07:427][  0]LogFileCache: Scanning file cache for directory 'D:/Programacion/UE4/Unreal Projects/LostSouls/Content/' took 0.01s
+[2017.05.08-03.02.07:622][  0]Cmd: MAP LOAD FILE="../../../../Unreal Projects/LostSouls/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.08-03.02.07:623][  0]LightingResults: New page: Lighting Build
+[2017.05.08-03.02.07:648][  0]MapCheck: New page: Map Check
+[2017.05.08-03.02.07:648][  0]LightingResults: New page: Lighting Build
+[2017.05.08-03.02.08:169][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.08-03.02.08:178][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.08-03.02.08:194][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.08-03.02.08:238][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.547ms to complete.
+[2017.05.08-03.02.08:238][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.616
+[2017.05.08-03.02.08:356][  0]LogCollectionManager: Loaded 0 collections in 0.001434 seconds
+[2017.05.08-03.02.08:421][  0]LogFileCache: Scanning file cache for directory 'D:/Programacion/UE4/Unreal Projects/LostSouls/Saved/Collections/' took 0.01s
+[2017.05.08-03.02.08:421][  0]LogFileCache: Scanning file cache for directory 'D:/Programacion/UE4/Unreal Projects/LostSouls/Content/Developers/PSGAM/Collections/' took 0.01s
+[2017.05.08-03.02.08:421][  0]LogFileCache: Scanning file cache for directory 'D:/Programacion/UE4/Unreal Projects/LostSouls/Content/Collections/' took 0.01s
+[2017.05.08-03.02.08:421][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.05.08-03.02.08:429][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2327 classes and 489 folders.
+[2017.05.08-03.02.08:474][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.08-03.02.08:512][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.05.08-03.02.08:548][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.08-03.02.08:577][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.08-03.02.08:581][  0]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.08-03.02.08:583][  0]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.08-03.02.08:587][  0]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.08-03.02.08:693][  0]LogRenderer: Reallocating scene render targets to support 1056x556 NumSamples 1 (Frame:1).
+[2017.05.08-03.02.08:739][  0]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.08-03.02.08:866][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.08-03.02.08:915][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.08-03.02.08:915][  0]LogLoad: (Engine Initialization) Total time: 13.81 seconds
+[2017.05.08-03.02.08:915][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.16 seconds
+[2017.05.08-03.02.08:915][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.08-03.02.08:915][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.08-03.02.08:924][  0]LogOcInput: OculusInput pre-init called
+[2017.05.08-03.02.08:924][  0]LogHMD: Starting GearVRController plugin
+[2017.05.08-03.02.08:943][  0]LogAssetRegistry: Asset discovery search completed in 7.7657 seconds
+[2017.05.08-03.02.08:944][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.05.08-03.02.08:944][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2017.05.08-03.02.08:947][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.08-03.02.11:207][247]SourceControl: Info On branch master
+[2017.05.08-03.02.11:207][247]SourceControl: Info Your branch is ahead of 'origin/master' by 1 commit.
+[2017.05.08-03.02.11:207][247]SourceControl: Info   (use "git push" to publish your local commits)
+[2017.05.08-03.02.11:207][247]SourceControl: Info Changes not staged for commit:
+[2017.05.08-03.02.11:207][247]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.05.08-03.02.11:207][247]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	modified:   Config/DefaultEngine.ini
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	modified:   Config/DefaultGame.ini
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	modified:   Config/DefaultInput.ini
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	modified:   Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	modified:   Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	modified:   Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	modified:   Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	modified:   Content/ThirdPersonBP/Maps/TestRoom.umap
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	modified:   Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/EditorSettings.ini
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Game.ini
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Input.ini
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.05.08-03.02.11:207][247]SourceControl: Info Untracked files:
+[2017.05.08-03.02.11:207][247]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Config/DefaultEditorSettings.ini
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Content/AnimStarterPack/
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Content/Foco.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Content/HUD_LostSouls.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Content/Highlight.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Content/Interact_BP.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Content/Interact_Interface.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Content/M_Highlight.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Content/Mannequin/Animations/Crouch_BS.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Content/Mannequin/Animations/Crouch_Idle_Rifle_Hip.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Content/Mannequin/Animations/Crouch_Walk_Fwd_Rifle_Hip.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Content/Mannequin/Animations/ThirdPerson_Crouching.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Content/PPI_OutlineMaterial_Inst.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Content/PP_OutlineMaterial.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Content/PP_OutlineMaterial2.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Content/PP_OutlineMaterial_Behind.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Content/PP_OutlineMaterial_Behind_Inst.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Content/PP_OutlineMaterial_Inst.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Content/PickUp_Bp.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Content/PickUp_Interface.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Content/Pickup_Interface2.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Content/Widget_HUD.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Intermediate/AssetRegistryCache/016b673c.bin
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Intermediate/AssetRegistryCache/1bf2cb3e.bin
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Intermediate/AssetRegistryCache/311563bb.bin
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Intermediate/AssetRegistryCache/701fbfce.bin
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Intermediate/AssetRegistryCache/7a742d77.bin
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Intermediate/AssetRegistryCache/88ffd561.bin
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Intermediate/AssetRegistryCache/a2a5e1f6.bin
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Intermediate/AssetRegistryCache/cfccc7b2.bin
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Intermediate/AssetRegistryCache/da466883.bin
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Saved/AutoScreenshot.png
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Saved/Backup/Floor_400x400_2017-05-02-17-28-12.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Saved/Backup/Foco_2017-05-02-17-39-08.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Saved/Backup/Foco_2017-05-02-17-45-52.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Saved/Backup/Foco_2017-05-02-17-51-50.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Saved/Backup/Foco_2017-05-02-17-58-09.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Saved/Backup/Foco_2017-05-02-18-06-02.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Saved/Backup/Foco_2017-05-02-18-12-08.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Saved/Backup/Foco_2017-05-02-18-17-47.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Saved/Backup/Foco_2017-05-02-18-24-32.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Saved/Backup/Foco_2017-05-02-18-31-27.uasset
+[2017.05.08-03.02.11:207][247]SourceControl: Info 	Saved/Backup/Foco_2017-05-02-18-36-46.uasset
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/TestRoom2_2017-05-08-04-53-40.umap
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/TestRoom_2017-05-08-04-55-00.umap
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/TestRoom_2017-05-08-04-57-48.umap
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonCharacter_2017-05-02-17-31-22.uasset
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonCharacter_2017-05-02-17-36-56.uasset
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonCharacter_2017-05-02-17-46-58.uasset
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonCharacter_2017-05-02-17-59-13.uasset
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonCharacter_2017-05-02-18-04-22.uasset
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonCharacter_2017-05-02-18-09-30.uasset
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonCharacter_2017-05-02-18-21-22.uasset
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonCharacter_2017-05-02-18-36-21.uasset
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonCharacter_2017-05-08-04-53-40.uasset
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonCharacter_2017-05-08-04-57-44.uasset
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonExampleMap_2017-05-02-17-31-53.umap
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonExampleMap_2017-05-02-17-40-59.umap
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonExampleMap_2017-05-02-17-46-17.umap
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonExampleMap_2017-05-02-17-55-56.umap
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonExampleMap_2017-05-02-18-01-21.umap
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonExampleMap_2017-05-02-18-07-32.umap
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonExampleMap_2017-05-02-18-17-48.umap
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonExampleMap_2017-05-02-18-24-04.umap
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonExampleMap_2017-05-02-18-29-27.umap
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonExampleMap_2017-05-02-18-36-23.umap
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonExampleMap_2017-05-02-19-19-00.umap
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonExampleMap_2017-05-08-04-57-40.umap
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonExampleMap_BuiltData_2017-05-02-17-31-53.uasset
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonExampleMap_BuiltData_2017-05-02-17-41-00.uasset
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonExampleMap_BuiltData_2017-05-02-17-46-17.uasset
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonExampleMap_BuiltData_2017-05-02-17-55-56.uasset
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonExampleMap_BuiltData_2017-05-02-18-01-21.uasset
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonExampleMap_BuiltData_2017-05-02-18-07-32.uasset
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonExampleMap_BuiltData_2017-05-02-18-17-48.uasset
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonExampleMap_BuiltData_2017-05-02-18-24-04.uasset
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonExampleMap_BuiltData_2017-05-02-18-29-27.uasset
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonExampleMap_BuiltData_2017-05-02-18-36-24.uasset
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonExampleMap_BuiltData_2017-05-02-19-19-00.uasset
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Backup/ThirdPersonExampleMap_BuiltData_2017-05-08-04-57-40.uasset
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-2FAEBB52482C6DC4F3BEAD82E3992AD3/
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-951399B046046D36DF7D9E93BED5D8C5/
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-B09EDA0849A8BD94D1F869B075291DD6/
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Config/Windows/EditorSettings.ini
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Config/Windows/SourceControlSettings.ini
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Config/WorldState/
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Logs/LostSouls-backup-2017.05.08-05.01.55.log
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Logs/LostSouls_TestRoom-backup-2017.05.08-03.27.15.log
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Logs/LostSouls_TestRoom-backup-2017.05.08-04.56.56.log
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Logs/LostSouls_TestRoom.log
+[2017.05.08-03.02.11:208][247]SourceControl: Info 	Saved/Screenshots/
+[2017.05.08-03.02.11:208][247]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.05.08-03.02.24:515][454]LogMaterial: Missing cached shader map for material Highlight, compiling. 
+[2017.05.08-03.02.24:560][454]LogMaterial: Missing cached shader map for material M_Highlight, compiling. 
+[2017.05.08-03.02.24:590][454]LogMaterial: Missing cached shader map for material PP_OutlineMaterial_Behind, compiling. 
+[2017.05.08-03.02.33:694][105]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.05.08-03.02.33:775][105]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.05.08-03.02.55:288][197]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.08-03.02.55:304][197]Cmd: MAP LOAD FILE="../../../../Unreal Projects/LostSouls/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.08-03.02.55:305][197]LightingResults: New page: Lighting Build
+[2017.05.08-03.02.55:305][197]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2017.05.08-03.02.55:306][197]MapCheck: New page: Map Check
+[2017.05.08-03.02.55:306][197]LightingResults: New page: Lighting Build
+[2017.05.08-03.02.55:337][197]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.08-03.02.55:346][197]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.08-03.02.55:370][197]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.08-03.02.55:420][197]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 49.906ms to complete.
+[2017.05.08-03.02.55:420][197]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.117
+[2017.05.08-03.02.57:008][374]LogAIModule: Creating AISystem for world TestRoom
+[2017.05.08-03.02.57:037][374]Cmd: MAP LOAD FILE="../../../../Unreal Projects/LostSouls/Content/ThirdPersonBP/Maps/TestRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.08-03.02.57:037][374]LightingResults: New page: Lighting Build
+[2017.05.08-03.02.57:037][374]LoadErrors: New page: Loading map: TestRoom.umap
+[2017.05.08-03.02.57:038][374]MapCheck: New page: Map Check
+[2017.05.08-03.02.57:038][374]LightingResults: New page: Lighting Build
+[2017.05.08-03.02.57:052][374]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.08-03.02.57:071][374]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.08-03.02.57:119][374]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.651ms to complete.
+[2017.05.08-03.02.57:119][374]LogFileHelpers: Loading map 'TestRoom' took 0.083
+[2017.05.08-03.02.58:428][528]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData'
+[2017.05.08-03.03.06:097][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/TestRoom" FILE="../../../../Unreal Projects/LostSouls/Content/ThirdPersonBP/Maps/TestRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.08-03.03.06:370][358]LogSavePackage: Save=256.62ms
+[2017.05.08-03.03.06:370][358]LogSavePackage: Moving '../../../../Unreal Projects/LostSouls/Saved/TestRoomC911A7CD4AC8BF91847699A7A15F42E9.tmp' to '../../../../Unreal Projects/LostSouls/Content/ThirdPersonBP/Maps/TestRoom.umap'
+[2017.05.08-03.03.06:371][358]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/LostSouls/Content/ThirdPersonBP/Maps/TestRoom.umap
+[2017.05.08-03.03.06:814][408]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.08-03.03.06:840][408]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom'
+[2017.05.08-03.03.06:840][408]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.08-03.03.06:840][408]PIE: New page: PIE session: TestRoom (May 8, 2017, 7:03:06 AM)
+[2017.05.08-03.03.06:840][408]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestRoom
+[2017.05.08-03.03.06:858][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017469s)
+[2017.05.08-03.03.06:859][408]LogAIModule: Creating AISystem for world TestRoom
+[2017.05.08-03.03.06:860][408]LogPlayLevel: PIE: World Init took: (0.001687s)
+[2017.05.08-03.03.06:860][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestRoom.TestRoom to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestRoom.TestRoom (0.019644s)
+[2017.05.08-03.03.06:872][408]LogInit: XAudio2 using 'Altavoces (2.4G Wireless headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.08-03.03.06:877][408]LogInit: FAudioDevice initialized.
+[2017.05.08-03.03.06:918][408]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.08-03.03.06:921][408]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestRoom.TestRoom up for play (max tick rate 0) at 2017.05.08-05.03.06
+[2017.05.08-03.03.06:922][408]LogWorld: Bringing up level for play took: 0.002062
+[2017.05.08-03.03.06:948][408]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.05.08-03.03.06:949][408]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestRoom -0.015
+[2017.05.08-03.03.06:950][408]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom'
+[2017.05.08-03.03.11:563][957]LogBlueprintUserMessages: [Foco_62] CollisionCylinder
+[2017.05.08-03.03.13:522][192]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom'
+[2017.05.08-03.03.13:551][192]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom'
+[2017.05.08-03.03.14:608][313]Cmd: MAP LOAD FILE="../../../../Unreal Projects/LostSouls/Content/ThirdPersonBP/Maps/TestRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.08-03.03.14:608][313]LightingResults: New page: Lighting Build
+[2017.05.08-03.03.14:608][313]LoadErrors: New page: Loading map: TestRoom.umap
+[2017.05.08-03.03.14:615][313]MapCheck: New page: Map Check
+[2017.05.08-03.03.14:615][313]LightingResults: New page: Lighting Build
+[2017.05.08-03.03.14:647][313]LogAIModule: Creating AISystem for world TestRoom
+[2017.05.08-03.03.14:654][313]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.08-03.03.14:677][313]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.08-03.03.14:726][313]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 48.643ms to complete.
+[2017.05.08-03.03.14:727][313]LogFileHelpers: Loading map 'TestRoom' took 0.119
+[2017.05.08-03.03.16:608][533]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.08-03.03.16:617][533]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom'
+[2017.05.08-03.03.16:617][533]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.08-03.03.16:617][533]PIE: New page: PIE session: TestRoom (May 8, 2017, 7:03:16 AM)
+[2017.05.08-03.03.16:617][533]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestRoom
+[2017.05.08-03.03.16:642][533]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024342s)
+[2017.05.08-03.03.16:642][533]LogAIModule: Creating AISystem for world TestRoom
+[2017.05.08-03.03.16:642][533]LogPlayLevel: PIE: World Init took: (0.000761s)
+[2017.05.08-03.03.16:643][533]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestRoom.TestRoom to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestRoom.TestRoom (0.025356s)
+[2017.05.08-03.03.16:658][533]LogInit: XAudio2 using 'Altavoces (2.4G Wireless headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.08-03.03.16:663][533]LogInit: FAudioDevice initialized.
+[2017.05.08-03.03.16:696][533]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.08-03.03.16:699][533]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestRoom.TestRoom up for play (max tick rate 0) at 2017.05.08-05.03.16
+[2017.05.08-03.03.16:700][533]LogWorld: Bringing up level for play took: 0.001915
+[2017.05.08-03.03.16:701][533]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestRoom -0.264
+[2017.05.08-03.03.16:701][533]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom'
+[2017.05.08-03.03.19:496][865]LogBlueprintUserMessages: [Foco_62] CollisionCylinder
+[2017.05.08-03.03.19:521][868]LogBlueprintUserMessages: [Foco_62] CollisionCylinder
+[2017.05.08-03.03.20:313][963]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom'
+[2017.05.08-03.03.20:344][963]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom'
+[2017.05.08-03.03.21:258][ 66]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.08-03.03.21:284][ 66]Cmd: MAP LOAD FILE="../../../../Unreal Projects/LostSouls/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.08-03.03.21:284][ 66]LightingResults: New page: Lighting Build
+[2017.05.08-03.03.21:285][ 66]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2017.05.08-03.03.21:286][ 66]MapCheck: New page: Map Check
+[2017.05.08-03.03.21:286][ 66]LightingResults: New page: Lighting Build
+[2017.05.08-03.03.21:302][ 66]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.08-03.03.21:321][ 66]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.08-03.03.21:369][ 66]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.956ms to complete.
+[2017.05.08-03.03.21:369][ 66]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.086
+[2017.05.08-03.03.26:269][635]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall9)
+[2017.05.08-03.03.27:800][796]Cmd: DELETE
+[2017.05.08-03.03.27:800][796]Cmd: ACTOR DELETE
+[2017.05.08-03.03.27:802][796]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.08-03.03.27:811][796]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.05.08-03.03.28:430][870]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall11)
+[2017.05.08-03.03.28:829][913]Cmd: DELETE
+[2017.05.08-03.03.28:829][913]Cmd: ACTOR DELETE
+[2017.05.08-03.03.28:829][913]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.08-03.03.28:837][913]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.05.08-03.03.29:093][943]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall10)
+[2017.05.08-03.03.29:208][952]Cmd: DELETE
+[2017.05.08-03.03.29:208][952]Cmd: ACTOR DELETE
+[2017.05.08-03.03.29:208][952]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.08-03.03.29:216][952]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.05.08-03.03.29:796][ 21]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2017.05.08-03.03.29:911][ 30]Cmd: DELETE
+[2017.05.08-03.03.29:911][ 30]Cmd: ACTOR DELETE
+[2017.05.08-03.03.29:911][ 30]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.08-03.03.29:919][ 30]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.05.08-03.03.32:077][266]LogSavePackage: Save=100.04ms
+[2017.05.08-03.03.32:077][266]LogSavePackage: Moving '../../../../Unreal Projects/LostSouls/Saved/ThirdPersonExampleMapD076D861422D95205010D9B8632BADA2.tmp' to '../../../../Unreal Projects/LostSouls/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.05.08-03.03.32:079][266]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/LostSouls/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.05.08-03.03.32:298][266]LogSavePackage: Save=149.25ms
+[2017.05.08-03.03.32:298][266]LogSavePackage: Moving '../../../../Unreal Projects/LostSouls/Saved/ThirdPersonExampleMap_BuiltData8582DE2C4F56CCA7440F4D8CFA316DC8.tmp' to '../../../../Unreal Projects/LostSouls/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.05.08-03.03.32:299][266]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/LostSouls/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.05.08-03.03.34:938][580]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.08-03.03.34:946][580]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.08-03.03.34:947][580]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.08-03.03.34:947][580]PIE: New page: PIE session: ThirdPersonExampleMap (May 8, 2017, 7:03:34 AM)
+[2017.05.08-03.03.34:947][580]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.08-03.03.34:964][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017580s)
+[2017.05.08-03.03.34:965][580]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.08-03.03.34:965][580]LogPlayLevel: PIE: World Init took: (0.000767s)
+[2017.05.08-03.03.34:965][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018584s)
+[2017.05.08-03.03.34:980][580]LogInit: XAudio2 using 'Altavoces (2.4G Wireless headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.08-03.03.34:985][580]LogInit: FAudioDevice initialized.
+[2017.05.08-03.03.35:018][580]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.08-03.03.35:021][580]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.08-05.03.35
+[2017.05.08-03.03.35:021][580]LogWorld: Bringing up level for play took: 0.001969
+[2017.05.08-03.03.35:022][580]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.057
+[2017.05.08-03.03.35:022][580]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.08-03.03.38:813][ 31]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.08-03.03.38:843][ 31]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.08-03.03.40:055][166]LogAIModule: Creating AISystem for world TestRoom
+[2017.05.08-03.03.40:081][166]Cmd: MAP LOAD FILE="../../../../Unreal Projects/LostSouls/Content/ThirdPersonBP/Maps/TestRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.08-03.03.40:081][166]LightingResults: New page: Lighting Build
+[2017.05.08-03.03.40:082][166]LoadErrors: New page: Loading map: TestRoom.umap
+[2017.05.08-03.03.40:082][166]MapCheck: New page: Map Check
+[2017.05.08-03.03.40:082][166]LightingResults: New page: Lighting Build
+[2017.05.08-03.03.40:097][166]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.08-03.03.40:116][166]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.08-03.03.40:164][166]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.986ms to complete.
+[2017.05.08-03.03.40:164][166]LogFileHelpers: Loading map 'TestRoom' took 0.084
+[2017.05.08-03.03.41:321][302]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.08-03.03.41:330][302]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom'
+[2017.05.08-03.03.41:330][302]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.08-03.03.41:330][302]PIE: New page: PIE session: TestRoom (May 8, 2017, 7:03:41 AM)
+[2017.05.08-03.03.41:330][302]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestRoom
+[2017.05.08-03.03.41:356][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025389s)
+[2017.05.08-03.03.41:356][302]LogAIModule: Creating AISystem for world TestRoom
+[2017.05.08-03.03.41:356][302]LogPlayLevel: PIE: World Init took: (0.000758s)
+[2017.05.08-03.03.41:357][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestRoom.TestRoom to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestRoom.TestRoom (0.026389s)
+[2017.05.08-03.03.41:369][302]LogInit: XAudio2 using 'Altavoces (2.4G Wireless headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.08-03.03.41:374][302]LogInit: FAudioDevice initialized.
+[2017.05.08-03.03.41:403][302]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.08-03.03.41:406][302]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestRoom.TestRoom up for play (max tick rate 0) at 2017.05.08-05.03.41
+[2017.05.08-03.03.41:406][302]LogWorld: Bringing up level for play took: 0.002114
+[2017.05.08-03.03.41:408][302]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestRoom 0.442
+[2017.05.08-03.03.41:408][302]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom'
+[2017.05.08-03.03.45:602][802]LogBlueprintUserMessages: [Foco_62] CollisionCylinder
+[2017.05.08-03.03.45:627][805]LogBlueprintUserMessages: [Foco_62] CollisionCylinder
+[2017.05.08-03.03.48:110][103]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom'
+[2017.05.08-03.03.48:143][103]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom'
+[2017.05.08-03.03.48:887][190]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.05.08-03.03.48:887][190]Can't find target actor or component.
+[2017.05.08-03.03.49:448][257]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.08-03.03.49:458][257]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom'
+[2017.05.08-03.03.49:458][257]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.08-03.03.49:458][257]PIE: New page: PIE session: TestRoom (May 8, 2017, 7:03:49 AM)
+[2017.05.08-03.03.49:458][257]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestRoom
+[2017.05.08-03.03.49:474][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016554s)
+[2017.05.08-03.03.49:475][257]LogAIModule: Creating AISystem for world TestRoom
+[2017.05.08-03.03.49:475][257]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2017.05.08-03.03.49:475][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestRoom.TestRoom to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestRoom.TestRoom (0.017527s)
+[2017.05.08-03.03.49:492][257]LogInit: XAudio2 using 'Altavoces (2.4G Wireless headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.08-03.03.49:497][257]LogInit: FAudioDevice initialized.
+[2017.05.08-03.03.49:528][257]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.08-03.03.49:531][257]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestRoom.TestRoom up for play (max tick rate 0) at 2017.05.08-05.03.49
+[2017.05.08-03.03.49:531][257]LogWorld: Bringing up level for play took: 0.001808
+[2017.05.08-03.03.49:532][257]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestRoom 0.567
+[2017.05.08-03.03.49:533][257]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom'
+[2017.05.08-03.03.54:043][795]LogBlueprintUserMessages: [Foco_62] CollisionCylinder
+[2017.05.08-03.03.54:093][801]LogBlueprintUserMessages: [Foco_62] CollisionCylinder
+[2017.05.08-03.03.54:811][887]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom'
+[2017.05.08-03.03.54:844][887]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom:PersistentLevel.TestRoom'
+[2017.05.08-03.03.59:203][401]SourceControl: Info fatal: D:/Programacion/UE4/UE_4.16/Engine/Content/: 'D:/Programacion/UE4/UE_4.16/Engine/Content/' is outside repository
+[2017.05.08-03.04.31:443][401]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.05.08-03.04.31:641][401]SourceControl: Info [master 99b13ee] Upload porject files
+[2017.05.08-03.04.31:641][401]SourceControl: Info  50 files changed, 0 insertions(+), 0 deletions(-)
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Aim_Space_Hip.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Aim_Space_Ironsights.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/BS_CrouchWalk.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/BS_Jog.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Crouch_Idle_Rifle_Hip.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Crouch_Idle_Rifle_Ironsights.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Ironsights.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Ironsights.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Crouch_Walk_Lt_Rifle_Ironsights.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Crouch_Walk_Rt_Rifle_Ironsights.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Crouch_to_Stand_Rifle_Hip.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Crouch_to_Stand_Rifle_Ironsights.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Death_1.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Death_2.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Death_3.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Death_Ironsights_1.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Death_Ironsights_2.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Equip_Pistol_Standing.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Equip_Rifle_Standing.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Fire_Rifle_Hip.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Fire_Rifle_Ironsights.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Fire_Shotgun_Hip.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Fire_Shotgun_Ironsights.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Hit_React_1.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Hit_React_2.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Hit_React_3.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Hit_React_4.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Idle_Pistol.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Idle_Rifle_Hip.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Idle_Rifle_Hip_Break1.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Idle_Rifle_Hip_Break2.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Idle_Rifle_Ironsights.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Jog_Bwd_Rifle.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Jog_Fwd_Rifle.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Jog_Lt_Rifle.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Jog_Rt_Rifle.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Jump_From_Jog.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Jump_From_Stand.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Jump_From_Stand_Ironsights.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Prone_Death_1.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Prone_Death_2.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Prone_Fire_1.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Prone_Fire_2.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Prone_Idle.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Prone_Reload_Rifle.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Prone_Reload_Shotgun.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info [master 437bd07] Upload porject files
+[2017.05.08-03.04.31:641][401]SourceControl: Info  Date: Mon May 8 05:04:29 2017 +0200
+[2017.05.08-03.04.31:641][401]SourceControl: Info  85 files changed, 0 insertions(+), 0 deletions(-)
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Aim_Space_Hip.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Aim_Space_Ironsights.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/BS_CrouchWalk.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/BS_Jog.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Crouch_Idle_Rifle_Hip.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Crouch_Idle_Rifle_Ironsights.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Ironsights.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Ironsights.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Crouch_Walk_Lt_Rifle_Ironsights.uasset
+[2017.05.08-03.04.31:641][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Crouch_Walk_Rt_Rifle_Ironsights.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Crouch_to_Stand_Rifle_Hip.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Crouch_to_Stand_Rifle_Ironsights.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Death_1.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Death_2.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Death_3.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Death_Ironsights_1.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Death_Ironsights_2.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Equip_Pistol_Standing.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Equip_Rifle_Standing.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Fire_Rifle_Hip.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Fire_Rifle_Ironsights.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Fire_Shotgun_Hip.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Fire_Shotgun_Ironsights.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Hit_React_1.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Hit_React_2.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Hit_React_3.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Hit_React_4.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Idle_Pistol.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Idle_Rifle_Hip.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Idle_Rifle_Hip_Break1.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Idle_Rifle_Hip_Break2.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Idle_Rifle_Ironsights.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Jog_Bwd_Rifle.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Jog_Fwd_Rifle.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Jog_Lt_Rifle.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Jog_Rt_Rifle.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Jump_From_Jog.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Jump_From_Stand.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Jump_From_Stand_Ironsights.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Prone_Death_1.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Prone_Death_2.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Prone_Fire_1.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Prone_Fire_2.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Prone_Idle.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Prone_Reload_Rifle.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Prone_Reload_Shotgun.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Prone_To_Stand.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Reload_Pistol.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Reload_Rifle_Hip.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Reload_Rifle_Ironsights.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Reload_Shotgun_Hip.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Reload_Shotgun_Ironsights.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Showcase.umap
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Sprint_Fwd_Rifle.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Stand_To_Prone.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Stand_to_Crouch_Rifle_Hip.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Stand_to_Crouch_Rifle_Ironsights.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Ue4ASP_Character.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Walk_Bwd_Rifle_Ironsights.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Walk_Fwd_Rifle_Ironsights.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Walk_Lt_Rifle_Ironsights.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/AnimStarterPack/Walk_Rt_Rifle_Ironsights.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/Foco.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/HUD_LostSouls.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/Highlight.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/Interact_BP.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/Interact_Interface.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/M_Highlight.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/PP_OutlineMaterial.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/PP_OutlineMaterial_Behind.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/PP_OutlineMaterial_Behind_Inst.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/PP_OutlineMaterial_Inst.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/PickUp_Bp.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/PickUp_Interface.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  rewrite Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset (89%)
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.05.08-03.04.31:642][401]SourceControl: Info  create mode 100644 Content/Widget_HUD.uasset
+[2017.05.08-03.04.31:646][401]SourceControl: Info Commited [master 99b13ee] Upload porject files.
+[2017.05.08-03.06.05:030][119]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.08-03.06.05:194][120]Cmd: QUIT_EDITOR
+[2017.05.08-03.06.06:211][120]LogExit: Preparing to exit.
+[2017.05.08-03.06.07:280][120]LogDirectoryWatcher: A directory notification for 'D:/Programacion/UE4/Unreal Projects/LostSouls/Content/' was aborted.
+[2017.05.08-03.06.07:296][120]LogExit: Editor shut down
+[2017.05.08-03.06.07:297][120]LogExit: Transaction tracking system shut down
+[2017.05.08-03.06.07:340][120]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.08-03.06.07:340][120]LogExit: Object subsystem successfully closed.
+[2017.05.08-03.06.07:360][120]LogD3D11RHI: Shutdown
+[2017.05.08-03.06.07:360][120]LogD3D11RHI: CleanupD3DDevice
+[2017.05.08-03.06.07:361][120]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.08-03.06.07:367][120]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2017.05.08-03.06.07:367][120]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.05.08-03.06.07:367][120]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.05.08-03.06.07:367][120]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.05.08-03.06.07:367][120]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.05.08-03.06.07:367][120]LogDirectoryWatcher: A directory notification for 'D:/Programacion/UE4/UE_4.16/FeaturePacks/' was aborted.
+[2017.05.08-03.06.07:367][120]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.05.08-03.06.07:367][120]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.05.08-03.06.07:367][120]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.05.08-03.06.07:368][120]LogDirectoryWatcher: A directory notification for 'D:/Programacion/UE4/Unreal Projects/LostSouls/Content/Collections/' was aborted.
+[2017.05.08-03.06.07:368][120]LogDirectoryWatcher: A directory notification for 'D:/Programacion/UE4/Unreal Projects/LostSouls/Content/Developers/PSGAM/Collections/' was aborted.
+[2017.05.08-03.06.07:368][120]LogDirectoryWatcher: A directory notification for 'D:/Programacion/UE4/Unreal Projects/LostSouls/Saved/Collections/' was aborted.
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.05.08-03.06.07:368][120]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.05.08-03.06.07:615][120]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.05.08-03.06.07:615][120]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.05.08-03.06.07:615][120]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.05.08-03.06.07:615][120]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.05.08-03.06.07:615][120]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.05.08-03.06.07:615][120]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.05.08-03.06.07:615][120]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.05.08-03.06.07:615][120]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.05.08-03.06.07:615][120]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.05.08-03.06.07:615][120]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.05.08-03.06.07:615][120]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.05.08-03.06.07:615][120]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.05.08-03.06.07:615][120]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.05.08-03.06.07:615][120]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.05.08-03.06.07:615][120]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.05.08-03.06.07:615][120]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.05.08-03.06.07:615][120]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.05.08-03.06.07:616][120]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.05.08-03.06.07:616][120]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.05.08-03.06.07:616][120]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.05.08-03.06.07:616][120]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.05.08-03.06.07:616][120]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.05.08-03.06.07:616][120]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.05.08-03.06.07:616][120]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.05.08-03.06.07:658][120]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.05.08-03.06.07:658][120]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.05.08-03.06.07:658][120]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.05.08-03.06.07:658][120]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.05.08-03.06.07:658][120]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.05.08-03.06.07:658][120]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.05.08-03.06.07:658][120]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.05.08-03.06.07:658][120]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.05.08-03.06.07:658][120]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.05.08-03.06.07:658][120]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.05.08-03.06.07:659][120]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.05.08-03.06.07:659][120]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.05.08-03.06.07:659][120]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.05.08-03.06.07:659][120]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.05.08-03.06.07:659][120]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.05.08-03.06.07:659][120]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.05.08-03.06.07:659][120]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.05.08-03.06.07:659][120]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.05.08-03.06.07:659][120]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.05.08-03.06.07:659][120]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.05.08-03.06.07:659][120]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.05.08-03.06.07:659][120]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.05.08-03.06.07:659][120]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.05.08-03.06.07:659][120]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.05.08-03.06.07:659][120]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.05.08-03.06.07:659][120]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.05.08-03.06.07:659][120]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.05.08-03.06.07:659][120]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.05.08-03.06.07:659][120]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.05.08-03.06.07:659][120]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.05.08-03.06.07:680][120]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.05.08-03.06.07:681][120]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.05.08-03.06.07:681][120]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.05.08-03.06.07:681][120]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.05.08-03.06.07:681][120]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.05.08-03.06.07:681][120]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.05.08-03.06.07:681][120]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.05.08-03.06.07:681][120]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.05.08-03.06.07:681][120]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.05.08-03.06.07:681][120]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.05.08-03.06.07:682][120]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.05.08-03.06.07:682][120]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.05.08-03.06.07:682][120]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.05.08-03.06.07:682][120]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.05.08-03.06.07:682][120]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.05.08-03.06.07:682][120]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.05.08-03.06.07:782][120]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.05.08-03.06.08:138][120]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.05.08-03.06.08:138][120]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.05.08-03.06.08:138][120]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.05.08-03.06.08:138][120]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.05.08-03.06.08:138][120]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.05.08-03.06.08:138][120]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.05.08-03.06.08:139][120]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.05.08-03.06.08:139][120]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.05.08-03.06.08:139][120]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.05.08-03.06.08:139][120]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.05.08-03.06.08:139][120]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.05.08-03.06.08:139][120]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.05.08-03.06.08:139][120]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.05.08-03.06.08:139][120]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.05.08-03.06.08:140][120]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.05.08-03.06.08:140][120]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.05.08-03.06.08:140][120]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.05.08-03.06.08:140][120]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.05.08-03.06.08:140][120]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.05.08-03.06.08:140][120]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.05.08-03.06.08:140][120]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.05.08-03.06.08:140][120]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.05.08-03.06.08:140][120]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.05.08-03.06.08:140][120]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.05.08-03.06.08:140][120]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.05.08-03.06.08:140][120]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.05.08-03.06.08:140][120]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.05.08-03.06.08:140][120]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.05.08-03.06.08:140][120]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.05.08-03.06.08:142][120]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.05.08-03.06.08:142][120]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.05.08-03.06.08:142][120]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.05.08-03.06.08:142][120]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.05.08-03.06.08:142][120]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.05.08-03.06.08:142][120]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.05.08-03.06.08:213][120]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.08-03.06.08:213][120]LogDirectoryWatcher: A directory notification for '../../../../Unreal Projects/LostSouls/Content/' was aborted.
+[2017.05.08-03.06.08:213][120]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.08-03.06.08:213][120]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.05.08-03.06.08:216][120]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.05.08-03.06.08:216][120]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.05.08-03.06.08:216][120]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.05.08-03.06.08:216][120]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.05.08-03.06.08:216][120]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.05.08-03.06.08:216][120]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.05.08-03.06.08:216][120]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.05.08-03.06.08:216][120]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.05.08-03.06.08:216][120]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.05.08-03.06.08:256][120]LogDerivedDataCache: Shutdown
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.05.08-03.06.08:256][120]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.05.08-03.06.08:257][120]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.05.08-03.06.08:257][120]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.05.08-03.06.08:257][120]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.05.08-03.06.08:257][120]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.08-03.06.08:257][120]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.05.08-03.06.08:257][120]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.05.08-03.06.08:257][120]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.08-03.06.08:257][120]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCEF3D908-4CE5-D9E1-D2DA-FB9DA2C0DE30%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.0-3415560%2B%2B%2BUE4%2BRelease-4.16&UserID=534bea9a4724990435e43b9586b3c7d6%7C23095a68ab2546c883a5c28977a32222%7Cd3592082-890a-4a9a-8184-9e7d234540a9&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.08-03.06.08:274][120]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.05.08-03.06.08:275][120]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.05.08-03.06.08:275][120]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.05.08-03.06.08:275][120]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.05.08-03.06.08:275][120]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.05.08-03.06.08:275][120]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.05.08-03.06.08:275][120]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.05.08-03.06.08:275][120]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.05.08-03.06.08:275][120]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.05.08-03.06.08:276][120]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.05.08-03.06.08:276][120]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.05.08-03.06.08:276][120]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.05.08-03.06.08:276][120]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.05.08-03.06.08:276][120]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.05.08-03.06.08:276][120]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.05.08-03.06.08:276][120]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.05.08-03.06.08:276][120]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.05.08-03.06.08:276][120]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.05.08-03.06.08:276][120]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.05.08-03.06.08:277][120]LogExit: Exiting.
+[2017.05.08-03.06.08:284][120]Log file closed, 05/08/17 05:06:08

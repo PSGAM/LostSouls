@@ -1,0 +1,362 @@
+﻿Log file open, 05/08/17 04:56:56
+LogInit:Display: Running engine for game: LostSouls_TestRoom
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-652172293) SRandInit(-652172293).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.084083
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3415560
+LogInit: Engine Version: 4.16.0-3415560+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3415560+++UE4+Release-4.16
+LogInit: Net CL: 3415560
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May  1 2017 02:03:37
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/Programacion/UE4/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.08-02.56.56:687][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.08-02.56.56:687][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.08-02.56.56:693][  0]LogInit: Computer: PSGAM-PC
+[2017.05.08-02.56.56:693][  0]LogInit: User: PSGAM
+[2017.05.08-02.56.56:693][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.05.08-02.56.56:693][  0]LogInit: High frequency timer resolution =3.507520 MHz
+[2017.05.08-02.56.56:694][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.05.08-02.56.56:694][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.08-02.56.56:694][  0]LogMemory: Process Physical Memory: 271.22 MB used, 271.22 MB peak
+[2017.05.08-02.56.56:694][  0]LogMemory: Process Virtual Memory: 261.16 MB used, 261.16 MB peak
+[2017.05.08-02.56.56:694][  0]LogMemory: Physical Memory: 5147.07 MB used,  11189.35 MB free, 16336.42 MB total
+[2017.05.08-02.56.56:694][  0]LogMemory: Virtual Memory: 624.50 MB used,  11189.35 MB free, 134217728.00 MB total
+[2017.05.08-02.56.56:739][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.05.08-02.56.56:739][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.05.08-02.56.57:495][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.08-02.56.57:996][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 760 (192-bit)' (Feature Level 11_0)
+[2017.05.08-02.56.57:996][  0]LogD3D11RHI:       1475/0/2560 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.05.08-02.56.57:997][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.08-02.56.57:997][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.08-02.56.57:997][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.08-02.56.58:000][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.08-02.56.58:000][  0]LogD3D11RHI:     GPU DeviceId: 0x118e (for the marketing name, search the web for "GPU Device Id")
+[2017.05.08-02.56.58:000][  0]LogWindows: EnumDisplayDevices:
+[2017.05.08-02.56.58:000][  0]LogWindows:    0. 'NVIDIA GeForce GTX 760 (192-bit)' (P:0 D:1)
+[2017.05.08-02.56.58:000][  0]LogWindows:    1. 'NVIDIA GeForce GTX 760 (192-bit)' (P:1 D:1)
+[2017.05.08-02.56.58:000][  0]LogWindows:    2. 'NVIDIA GeForce GTX 760 (192-bit)' (P:0 D:0)
+[2017.05.08-02.56.58:001][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.05.08-02.56.58:001][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 760 (192-bit)
+[2017.05.08-02.56.58:001][  0]LogD3D11RHI:   Driver Version: 378.92 (internal:21.21.13.7892, unified:378.92)
+[2017.05.08-02.56.58:001][  0]LogD3D11RHI:      Driver Date: 3-16-2017
+[2017.05.08-02.56.58:001][  0]LogRHI: Texture pool is 1033 MB (70% of 1475 MB)
+[2017.05.08-02.56.58:494][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
+[2017.05.08-02.56.58:494][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.08-02.56.58:588][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.05.08-02.56.58:688][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Intermediate/Shaders/WorkingDirectory/6248/).
+[2017.05.08-02.56.58:688][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Pablo/AppData/Local/Temp/UnrealShaderWorkingDir/0402B17A40419744B0160D899EEA9B8E/'.
+[2017.05.08-02.56.58:688][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.08-02.56.59:591][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.08-02.56.59:625][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.08-02.56.59:660][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.08-02.56.59:694][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.08-02.56.59:729][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.08-02.56.59:763][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.08-02.56.59:798][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.08-02.56.59:833][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.08-02.56.59:864][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.08-02.56.59:903][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.08-02.56.59:940][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.08-02.56.59:974][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.08-02.57.00:009][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.08-02.57.00:043][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.08-02.57.00:078][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.08-02.57.00:149][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.08-02.57.00:149][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.08-02.57.00:177][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.08-02.57.00:247][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.08-02.57.00:268][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.08-02.57.00:302][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.08-02.57.00:336][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.08-02.57.00:369][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.08-02.57.00:404][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.08-02.57.00:404][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.08-02.57.00:745][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.08-02.57.00:799][  0]LogDerivedDataCache: Loaded boot cache 0.05s 58MB C:/Users/Pablo/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.05.08-02.57.00:799][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Pablo/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.05.08-02.57.00:799][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.08-02.57.00:799][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.08-02.57.00:799][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.08-02.57.00:799][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.08-02.57.00:816][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.08-02.57.00:828][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Pablo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.08-02.57.00:837][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.08-02.57.00:838][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.08-02.57.00:838][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.08-02.57.01:137][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.08-02.57.01:205][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.08-02.57.01:333][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.08-02.57.01:361][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.08-02.57.01:394][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.08-02.57.01:394][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.08-02.57.01:394][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.08-02.57.01:830][  0]LogNetVersion: LostSouls_TestRoom , NetCL: 3415560, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4041388549)
+[2017.05.08-02.57.01:881][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
+[2017.05.08-02.57.01:913][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.012166 seconds
+[2017.05.08-02.57.01:918][  0]LogUObjectArray: 34173 objects as part of root set at end of initial load.
+[2017.05.08-02.57.01:918][  0]LogUObjectAllocator: 7257240 out of 0 bytes used by permanent object pool.
+[2017.05.08-02.57.01:918][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.08-02.57.01:955][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.08-02.57.03:786][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.08-02.57.03:816][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.08-02.57.04:177][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.08-02.57.04:446][  0]SourceControl: Info Source control is disabled
+[2017.05.08-02.57.04:487][  0]SourceControl: Info Source control is disabled
+[2017.05.08-02.57.04:518][  0]SourceControl: Info Source control is disabled
+[2017.05.08-02.57.04:547][  0]SourceControl: Info Source control is disabled
+[2017.05.08-02.57.04:969][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.05.08-02.57.05:349][  0]LogEngine: Initializing Engine...
+[2017.05.08-02.57.05:350][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.08-02.57.05:473][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.08-02.57.05:473][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.08-02.57.05:548][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.08-02.57.05:555][  0]LogInit: XAudio2 using 'Altavoces (2.4G Wireless headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.08-02.57.05:562][  0]LogInit: FAudioDevice initialized.
+[2017.05.08-02.57.05:588][  0]LogDerivedDataCache: Saved boot cache 0.03s 58MB C:/Users/Pablo/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.05.08-02.57.05:591][  0]LogInit: Texture streaming: Enabled
+[2017.05.08-02.57.05:648][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.08-02.57.05:778][  0]LogInit: Transaction tracking system initialized
+[2017.05.08-02.57.05:962][  0]BlueprintLog: New page: Editor Load
+[2017.05.08-02.57.06:507][  0]LocalizationService: Info Localization service is disabled
+[2017.05.08-02.57.06:916][  0]LogConsoleResponse:Display: 
+[2017.05.08-02.57.07:030][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.08-02.57.07:030][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.08-02.57.07:664][  0]LogFileCache: Scanning file cache for directory 'D:/Programacion/UE4/Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/' took 0.01s
+[2017.05.08-02.57.07:664][  0]SourceControl: Info Source control is disabled
+[2017.05.08-02.57.07:664][  0]Cmd: MAP LOAD FILE="../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.08-02.57.07:665][  0]LightingResults: New page: Lighting Build
+[2017.05.08-02.57.07:689][  0]MapCheck: New page: Map Check
+[2017.05.08-02.57.07:689][  0]LightingResults: New page: Lighting Build
+[2017.05.08-02.57.08:239][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.08-02.57.08:249][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.08-02.57.08:265][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.08-02.57.08:311][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.331ms to complete.
+[2017.05.08-02.57.08:311][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.647
+[2017.05.08-02.57.08:416][  0]LogCollectionManager: Loaded 0 collections in 0.001109 seconds
+[2017.05.08-02.57.08:478][  0]LogFileCache: Scanning file cache for directory 'D:/Programacion/UE4/Unreal Projects/LostSouls_TestRoom_4_16 4.16/Saved/Collections/' took 0.01s
+[2017.05.08-02.57.08:478][  0]LogFileCache: Scanning file cache for directory 'D:/Programacion/UE4/Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/Developers/PSGAM/Collections/' took 0.01s
+[2017.05.08-02.57.08:478][  0]LogFileCache: Scanning file cache for directory 'D:/Programacion/UE4/Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/Collections/' took 0.01s
+[2017.05.08-02.57.08:478][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.05.08-02.57.08:486][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2327 classes and 489 folders.
+[2017.05.08-02.57.08:523][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.08-02.57.08:560][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.08-02.57.08:586][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.08-02.57.08:614][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.08-02.57.08:617][  0]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.08-02.57.08:619][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.08-02.57.08:625][  0]LogSlate: Took 0.000431 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.08-02.57.08:714][  0]LogRenderer: Reallocating scene render targets to support 1056x556 NumSamples 1 (Frame:1).
+[2017.05.08-02.57.08:765][  0]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.08-02.57.08:895][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.08-02.57.08:944][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.08-02.57.08:944][  0]LogLoad: (Engine Initialization) Total time: 13.44 seconds
+[2017.05.08-02.57.08:944][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.17 seconds
+[2017.05.08-02.57.08:944][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.08-02.57.08:944][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.08-02.57.08:953][  0]LogOcInput: OculusInput pre-init called
+[2017.05.08-02.57.08:953][  0]LogHMD: Starting GearVRController plugin
+[2017.05.08-02.57.08:973][  0]LogAssetRegistry: Asset discovery search completed in 7.1149 seconds
+[2017.05.08-02.57.08:974][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.05.08-02.57.08:974][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2017.05.08-02.57.08:977][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.08-02.57.39:419][631]LogAIModule: Creating AISystem for world TestRoom
+[2017.05.08-02.57.40:805][796]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.08-02.57.40:932][796]LogSavePackage: Save=93.38ms
+[2017.05.08-02.57.40:932][796]LogSavePackage: Moving '../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Saved/ThirdPersonExampleMap7E1FF4284DC1893B6493A586F16F30C4.tmp' to '../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.05.08-02.57.40:933][796]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.05.08-02.57.41:056][796]LogSavePackage: Save=105.46ms
+[2017.05.08-02.57.41:056][796]LogSavePackage: Moving '../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Saved/ThirdPersonExampleMap_BuiltData90C8921D412B741D7E0F6F9CC57F13E5.tmp' to '../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.05.08-02.57.41:057][796]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.05.08-02.57.44:753][994]LogSavePackage: Save=235.40ms
+[2017.05.08-02.57.44:753][994]LogSavePackage: Moving '../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Saved/ThirdPersonCharacter5C5DC1164937AAF0BCC131BF3CF753ED.tmp' to '../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.05.08-02.57.44:754][994]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.05.08-02.57.44:906][994]LogSavePackage: Save=92.36ms
+[2017.05.08-02.57.44:906][994]LogSavePackage: Moving '../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Saved/TestRoom3D76F2824DBF1ACA2638008672AE4768.tmp' to '../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/TestRoom.umap'
+[2017.05.08-02.57.44:907][994]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/TestRoom.umap
+[2017.05.08-02.57.44:911][994]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.08-02.57.44:915][994]LogFileHelpers: Saving map 'TestRoom' took 0.160
+[2017.05.08-02.57.44:924][994]Cmd: MAP LOAD FILE="../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/TestRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.08-02.57.44:924][994]LightingResults: New page: Lighting Build
+[2017.05.08-02.57.44:925][994]LoadErrors: New page: Loading map: TestRoom.umap
+[2017.05.08-02.57.44:926][994]MapCheck: New page: Map Check
+[2017.05.08-02.57.44:926][994]LightingResults: New page: Lighting Build
+[2017.05.08-02.57.44:942][994]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.08-02.57.44:963][994]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.08-02.57.45:009][994]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.905ms to complete.
+[2017.05.08-02.57.45:010][994]LogFileHelpers: Loading map 'TestRoom' took 0.087
+[2017.05.08-02.57.48:796][279]LogSavePackage: Save=92.43ms
+[2017.05.08-02.57.48:796][279]LogSavePackage: Moving '../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Saved/TestRoomD947B4DB494DD0BDF0287480006A92FD.tmp' to '../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/TestRoom.umap'
+[2017.05.08-02.57.48:798][279]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/TestRoom.umap
+[2017.05.08-02.57.48:810][279]LogFileHelpers: Saving map 'TestRoom' took 0.165
+[2017.05.08-02.57.48:811][279]Cmd: MAP LOAD FILE="../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/TestRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.08-02.57.48:811][279]LightingResults: New page: Lighting Build
+[2017.05.08-02.57.48:812][279]LoadErrors: New page: Loading map: TestRoom.umap
+[2017.05.08-02.57.48:812][279]MapCheck: New page: Map Check
+[2017.05.08-02.57.48:813][279]LightingResults: New page: Lighting Build
+[2017.05.08-02.57.48:831][279]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData'
+[2017.05.08-02.57.48:831][279]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData' while loading ../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/TestRoom.umap.
+[2017.05.08-02.57.48:831][279]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/TestRoom : Can't find file for asset. /Game/ThirdPersonBP/Maps/TestRoom_BuiltData
+[2017.05.08-02.57.48:831][279]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData'
+[2017.05.08-02.57.48:831][279]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData' while loading ../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/TestRoom.umap.
+[2017.05.08-02.57.48:833][279]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData'
+[2017.05.08-02.57.48:833][279]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData' while loading NULL.
+[2017.05.08-02.57.48:833][279]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData'
+[2017.05.08-02.57.48:833][279]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData' while loading NULL.
+[2017.05.08-02.57.48:836][279]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData'
+[2017.05.08-02.57.48:836][279]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Maps/TestRoom_BuiltData.TestRoom_BuiltData Referenced by PersistentLevel
+[2017.05.08-02.57.48:836][279]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData' while loading NULL.
+[2017.05.08-02.57.48:848][279]LogAIModule: Creating AISystem for world TestRoom
+[2017.05.08-02.57.48:856][279]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.08-02.57.48:893][279]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.08-02.57.48:938][279]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.293ms to complete.
+[2017.05.08-02.57.48:939][279]LogFileHelpers: Loading map 'TestRoom' took 0.129
+[2017.05.08-02.57.57:767][331]Cmd: MAP LOAD FILE="../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/TestRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.08-02.57.57:767][331]LightingResults: New page: Lighting Build
+[2017.05.08-02.57.57:768][331]LoadErrors: New page: Loading map: TestRoom.umap
+[2017.05.08-02.57.57:768][331]MapCheck: New page: Map Check
+[2017.05.08-02.57.57:768][331]LightingResults: New page: Lighting Build
+[2017.05.08-02.57.57:780][331]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData'
+[2017.05.08-02.57.57:780][331]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData' while loading ../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/TestRoom.umap.
+[2017.05.08-02.57.57:780][331]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/TestRoom : Can't find file for asset. /Game/ThirdPersonBP/Maps/TestRoom_BuiltData
+[2017.05.08-02.57.57:781][331]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData'
+[2017.05.08-02.57.57:781][331]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData' while loading ../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/TestRoom.umap.
+[2017.05.08-02.57.57:782][331]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData'
+[2017.05.08-02.57.57:782][331]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData' while loading NULL.
+[2017.05.08-02.57.57:782][331]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData'
+[2017.05.08-02.57.57:782][331]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData' while loading NULL.
+[2017.05.08-02.57.57:786][331]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData'
+[2017.05.08-02.57.57:786][331]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Maps/TestRoom_BuiltData.TestRoom_BuiltData Referenced by PersistentLevel
+[2017.05.08-02.57.57:786][331]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData' while loading NULL.
+[2017.05.08-02.57.57:797][331]LogAIModule: Creating AISystem for world TestRoom
+[2017.05.08-02.57.57:804][331]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.08-02.57.57:838][331]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.08-02.57.57:884][331]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.465ms to complete.
+[2017.05.08-02.57.57:885][331]LogFileHelpers: Loading map 'TestRoom' took 0.119
+[2017.05.08-02.58.08:614][483]LightingResults: New page: Lighting Build
+[2017.05.08-02.58.08:623][483]MapCheck: New page: Map Check
+[2017.05.08-02.58.08:623][483]LightingResults: New page: Lighting Build
+[2017.05.08-02.58.08:632][483]LogAIModule: Creating AISystem for world Untitled
+[2017.05.08-02.58.08:640][483]LoadErrors: New page: New Map
+[2017.05.08-02.58.08:646][483]LogLinker: Can't find file '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData'
+[2017.05.08-02.58.08:646][483]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData' while loading ../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/TestRoom.umap.
+[2017.05.08-02.58.08:647][483]LogLinker: Can't find file '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData'
+[2017.05.08-02.58.08:647][483]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData' while loading ../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/TestRoom.umap.
+[2017.05.08-02.58.08:648][483]LogLinker: Can't find file '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData'
+[2017.05.08-02.58.08:648][483]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData' while loading NULL.
+[2017.05.08-02.58.08:648][483]LogLinker: Can't find file '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData'
+[2017.05.08-02.58.08:648][483]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData' while loading NULL.
+[2017.05.08-02.58.08:652][483]LogLinker: Can't find file '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData'
+[2017.05.08-02.58.08:652][483]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Maps/TestRoom_BuiltData' while loading NULL.
+[2017.05.08-02.58.08:662][483]LogAIModule: Creating AISystem for world TestRoom
+[2017.05.08-02.58.15:150][215]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.08-02.58.17:596][454]LogAIModule: Creating AISystem for world ThirdPersonExampleMap_2
+[2017.05.08-02.58.51:640][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/TestRoomBuiltData" FILE="../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/TestRoomBuiltData.uasset" SILENT=true
+[2017.05.08-02.58.51:747][185]LogSavePackage: Save=107.38ms
+[2017.05.08-02.58.51:747][185]LogSavePackage: Moving '../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Saved/TestRoomBuiltDataDA8CFB17455B89436CDF599DDFBE6BDC.tmp' to '../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/TestRoomBuiltData.uasset'
+[2017.05.08-02.58.51:748][185]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/TestRoomBuiltData.uasset
+[2017.05.08-02.58.58:289][951]LogMetaData: Removing '/Game/ThirdPersonBP/Maps/TestRoom.SKEL_TestRoom_C' ref from Metadata '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_2.PackageMetaData'
+[2017.05.08-02.58.58:289][951]LogMetaData: Removing '/Game/ThirdPersonBP/Maps/TestRoom.TestRoom_C' ref from Metadata '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_2.PackageMetaData'
+[2017.05.08-02.58.58:568][951]LogSavePackage: Save=197.17ms
+[2017.05.08-02.58.58:568][951]LogSavePackage: Moving '../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Saved/TestRoomE54640A843314FABFEBF01B3FE91E244.tmp' to '../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/TestRoom.umap'
+[2017.05.08-02.58.58:569][951]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/TestRoom.umap
+[2017.05.08-02.58.58:573][951]LogFileHelpers: Saving map 'TestRoom' took 0.263
+[2017.05.08-02.59.05:514][299]LogSavePackage: Save=230.96ms
+[2017.05.08-02.59.05:514][299]LogSavePackage: Moving '../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Saved/ThirdPersonCharacterFA9119994C7DCF44B7D75D9909ED8E70.tmp' to '../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.05.08-02.59.05:515][299]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.05.08-02.59.05:774][299]LogSavePackage: Save=199.02ms
+[2017.05.08-02.59.05:774][299]LogSavePackage: Moving '../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Saved/TestRoom55FF9DFE41749A26BA0265BFA1A0745D.tmp' to '../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/TestRoom.umap'
+[2017.05.08-02.59.05:776][299]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/TestRoom.umap
+[2017.05.08-02.59.05:779][299]LogFileHelpers: Saving map 'TestRoom' took 0.264
+[2017.05.08-02.59.05:784][299]Cmd: MAP LOAD FILE="../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/TestRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.08-02.59.05:784][299]LightingResults: New page: Lighting Build
+[2017.05.08-02.59.05:785][299]LoadErrors: New page: Loading map: TestRoom.umap
+[2017.05.08-02.59.05:798][299]MapCheck: New page: Map Check
+[2017.05.08-02.59.05:798][299]LightingResults: New page: Lighting Build
+[2017.05.08-02.59.05:826][299]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.08-02.59.05:847][299]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.08-02.59.05:892][299]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.335ms to complete.
+[2017.05.08-02.59.05:893][299]LogFileHelpers: Loading map 'TestRoom' took 0.110
+[2017.05.08-02.59.14:925][108]LogSavePackage: Save=193.10ms
+[2017.05.08-02.59.14:925][108]LogSavePackage: Moving '../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Saved/TestRoomB5C8C3EB4CF550B918B004AD257EC2C8.tmp' to '../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/TestRoom.umap'
+[2017.05.08-02.59.14:927][108]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/TestRoom.umap
+[2017.05.08-02.59.16:094][243]Cmd: MAP LOAD FILE="../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/TestRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.08-02.59.16:094][243]LightingResults: New page: Lighting Build
+[2017.05.08-02.59.16:094][243]LoadErrors: New page: Loading map: TestRoom.umap
+[2017.05.08-02.59.16:095][243]MapCheck: New page: Map Check
+[2017.05.08-02.59.16:095][243]LightingResults: New page: Lighting Build
+[2017.05.08-02.59.16:191][243]LogAIModule: Creating AISystem for world TestRoom
+[2017.05.08-02.59.16:199][243]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.08-02.59.16:221][243]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.08-02.59.16:268][243]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.078ms to complete.
+[2017.05.08-02.59.16:269][243]LogFileHelpers: Loading map 'TestRoom' took 0.176
+[2017.05.08-02.59.21:432][844]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.08-02.59.21:453][844]Cmd: MAP LOAD FILE="../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.08-02.59.21:453][844]LightingResults: New page: Lighting Build
+[2017.05.08-02.59.21:453][844]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2017.05.08-02.59.21:454][844]MapCheck: New page: Map Check
+[2017.05.08-02.59.21:454][844]LightingResults: New page: Lighting Build
+[2017.05.08-02.59.21:468][844]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.08-02.59.21:488][844]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.08-02.59.21:535][844]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.64ms to complete.
+[2017.05.08-02.59.21:535][844]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.083
+[2017.05.08-02.59.22:667][972]LogAIModule: Creating AISystem for world TestRoom
+[2017.05.08-02.59.22:693][972]Cmd: MAP LOAD FILE="../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/TestRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.08-02.59.22:693][972]LightingResults: New page: Lighting Build
+[2017.05.08-02.59.22:693][972]LoadErrors: New page: Loading map: TestRoom.umap
+[2017.05.08-02.59.22:694][972]MapCheck: New page: Map Check
+[2017.05.08-02.59.22:694][972]LightingResults: New page: Lighting Build
+[2017.05.08-02.59.22:708][972]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.08-02.59.22:728][972]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.08-02.59.22:774][972]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.763ms to complete.
+[2017.05.08-02.59.22:774][972]LogFileHelpers: Loading map 'TestRoom' took 0.082
+[2017.05.08-02.59.24:392][162]Cmd: MAP LOAD FILE="../../../../Unreal Projects/LostSouls_TestRoom_4_16 4.16/Content/ThirdPersonBP/Maps/TestRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.08-02.59.24:392][162]LightingResults: New page: Lighting Build
+[2017.05.08-02.59.24:393][162]LoadErrors: New page: Loading map: TestRoom.umap
+[2017.05.08-02.59.24:396][162]MapCheck: New page: Map Check
+[2017.05.08-02.59.24:396][162]LightingResults: New page: Lighting Build
+[2017.05.08-02.59.24:425][162]LogAIModule: Creating AISystem for world TestRoom
+[2017.05.08-02.59.24:433][162]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.08-02.59.24:457][162]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.08-02.59.24:503][162]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.066ms to complete.
+[2017.05.08-02.59.24:503][162]LogFileHelpers: Loading map 'TestRoom' took 0.112
